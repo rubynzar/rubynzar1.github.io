@@ -1,0 +1,435 @@
+
+body{
+  background-color: black;
+  margin: 0% 5%;
+}
+
+
+
+.topBanner {
+    width: 100%;
+    display: flow-root;
+}
+
+.firstButton{
+  margin-left: 1%;
+}
+
+.logoBanner{
+    float: left;
+    width: 10%;
+}
+
+#logo{
+  width: 100%;
+}
+
+.topBanner a {
+    text-decoration: none;
+    color: black;
+}
+
+.bannerButton {
+    float: left;
+    width: 10%;
+    text-align: center;
+    padding: 0.5% 0%;
+    border-radius: 50%;
+    margin-top: 0.5%;
+}
+
+.bannerButton:hover {
+    background-color: rgb(255,218,0, 0.7);
+    transition: 0.5s;
+}
+
+.bannerButton:hover p {
+    color: white;
+    font-weight: 800;
+}
+
+.search {
+    float: right;
+    width: 10%;
+    margin: 1.8% 1%;
+}
+
+#search {
+    padding: 3% 0%;
+    border-radius: 16px;
+    background-color: #FFDA00;
+}
+
+.cart {
+    float: right;
+    width: 3%;
+    margin: 1.9% 0%;
+}
+
+.cart img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.contentROW {
+    width: 90%;
+    background-image: url("../IMGs/backgroundINDEX.png");
+    display: flow-root;
+    padding: 0% 5%;
+    background-size: 47%;
+}
+
+#title {
+    width: 20%;
+    margin: 1% 0% 1% 0%;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.productImage {
+    width: 41%;
+    float: left;
+}
+
+#plunger {
+    width: 34%;
+    padding: 4% 25%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 5px solid;
+    border-radius: 16px;
+}
+
+.video {
+    float: right;
+    width: 50%;
+    border: 5px solid;
+    border-radius: 50%;
+    padding: 10% 4%;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.video iframe {
+    width: 100%;
+    height: 385px;
+    border-radius: 35px;
+}
+
+.bottomBanner{
+  width: 100%;
+  display: flow-root;
+}
+
+.columnText {
+    width: 11.8%;
+    float: left;
+    padding-left: 1%;
+    border-left: 2px solid #707070;
+}
+
+.logoCopyright {
+    width: 25%;
+    float: left;
+}
+
+#bannerLogoIMG {
+    width: 50%;
+    margin: 10% 25%;
+}
+
+#copyrightID {
+    margin-top: 18%;
+    color: #615E5E;
+}
+
+.followUS {
+    width: 12%;
+    float: left;
+}
+
+.followUS h3, #list{
+    color: #FFDA00;
+}
+
+.appColumn {
+    width: 23%;
+    float: left;
+}
+
+#appD{
+  margin-left: 19%;
+  color: #FFDA00;
+}
+
+.appColumn img {
+    width: 64%;
+    border-radius: 9px;
+    border: 2px solid #FFDA00;
+    margin-left: 19%;
+}
+
+#bottomAppID {
+    color: #615E5E;
+}
+
+p,h3,li {
+    color: white;
+    font-family: Segoe UI;
+    font-size: 18px;
+}
+
+#present {
+    color: black;
+    margin: 5% 33%;
+        margin-top: 5%;
+    width: 36%;
+    font-size: 26px;
+    margin-top: -9%;
+}
+.buyRow {
+    float: left;
+    width: 86%;
+    display: flow-root;
+}
+
+.priceBox span {
+    color: red;
+    font-size: 24px;
+    font-weight: 1000;
+}
+
+.priceBox {
+    font-size: 28px;
+    font-weight: 700;
+    padding: 2% 0%;
+    display: flow-root;
+    width: 47%;
+    float: left;
+    background: white;
+    border: 5px solid;
+    border-radius: 16px;
+}
+
+.addToCart {
+  width: 47%;
+  float: right;
+  background: white;
+  border: 5px solid black;
+  border-radius: 16px;
+  text-align: center;
+  color: black;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 2% 0%;
+}
+
+.addToCart:hover {
+    background-color: rgba(255, 218, 0, 0.9);
+    color:red;
+    font-weight: 700;
+    transition: 0.5s;
+    border-radius: 50%;
+}
+
+.animation {
+    float:left;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.animPlunger {
+    float:left;
+    width:60%;
+    border:5px solid black;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#plungerSlider {
+    float:left;
+}
+#plungerAnim {
+    float: right;
+    width: 97%;
+    border-radius: 11px;
+}
+
+
+#plungerInt {
+    position: absolute;
+    width: 4%;
+    margin-left: 8.5%;
+    float: left;
+}
+
+.animGIF {
+    float:right;
+    padding: 0% 4% 4% 4%;
+    width:30%;
+    border:5px solid black;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.animGIF img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+input[type=range][orient=vertical]
+{
+    -webkit-appearance: slider-vertical;
+    width: 8px;
+    height: 200px;
+    padding: 0 5px;
+}
+.animText {
+    width: 100%;
+    margin-left: 2%;
+}
+.animText li{
+    color: black;
+  }
+
+.animTextHomer {
+  width: 100%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .contentROW {
+      width: 98%;
+      padding: 0% 1%;
+      background-size: 100%;
+  }
+
+  .logoBanner {
+      width: 30%;
+      margin-top: 3.4%;
+  }
+
+  .bannerButton {
+      width: 23%;
+  }
+
+  p, h3, li {
+      font-size: 14px;
+  }
+
+
+  #search {
+      font-size: 11px;
+  }
+
+  .search {
+      width: 32%;
+      margin: 1% 5%;
+  }
+
+  .cart {
+      width: 11%;
+      margin: 1% 0% 0% 0%;
+  }
+
+  #title {
+    width: 40%;
+    font-size: 22px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#plunger {
+    width: 60%;
+    float:left;
+}
+
+.buyRow {
+    width: 63%;
+    position: absolute;
+    display: grid;
+    margin-left: 50%;
+}
+
+.priceBox {
+    font-size: 15px;
+    width: 51%;
+    margin-bottom: 2%;
+}
+
+.priceBox span {
+    font-size: 15px;
+}
+
+.addToCart {
+    width: 40%;
+    font-size: 15px;
+    float: left;
+}
+
+.video {
+    float: none;
+    width: 100%;
+    border-radius: 0;
+    padding: 0;
+    display: flow-root;
+    border: 0;
+}
+
+#present {
+    color: black;
+    margin: 4% 0% 2% 0%;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.animPlunger {
+    width: 97%;
+}
+
+#plungerAnim {
+    width: 93%;
+}
+
+#plungerInt {
+    width: 8.5%;
+    margin-left: 13.5%;
+}
+
+.animGIF {
+    display: none;
+}
+
+.columnText {
+    width: 31.8%;
+}
+.columnText ul{
+    padding-left: 12%;
+}
+
+#bannerLogoIMG {
+    width: 100%;
+    margin: 14% 0%;
+}
+
+.logoCopyright {
+    width: 34%;
+}
+
+.followUS {
+    width: 28%;
+    margin-left: 2%;
+}
+
+.appColumn {
+    width: 36%;
+}
+
+#copyrightID {
+    margin-top: 32%;
+    width: 170%;
+    text-align: center;
+}
+
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="./CSS/index.css">
+
+  </head>
+
+
+  <body>
+
+<!-- Top Banner  -->
+    <div class="topBanner">
+
+      <div class="logoBanner">
+        <a href="index.html" alt="HOME">
+        <img id="logo" src="IMGs\brutto_logo.png" alt="Brutto logo">
+        </a>
+      </div>
+
+      <a href="#">
+      <div class="bannerButton firstButton">
+        <p>Sign in</p>
+      </div>
+      </a>
+
+      <a href="aboutUS.html">
+      <div class="bannerButton">
+        <p>About us</p>
+      </div>
+      </a>
+
+      <a href="https://indd.adobe.com/view/53154d16-9939-4461-8559-ae8664427628" target="_blank">
+      <div class="bannerButton">
+        <p>Items</p>
+      </div>
+      </a>
+
+      <div class="cart">
+        <img src="IMGs\shoppingCart.png" alt="Shopping Cart">
+      </div>
+
+      <div class="search">
+        <input type="text" id="search" value="           SEARCH">
+      </div>
+
+    </div> <!-- Top Banner end -->
+
+
+
+
+    <div class="contentROW">
+
+      <h2 id="title">Plunger 35cm</h2>
+
+      <div class="productImage">
+        <img id="plunger" src="IMGs\plunger.png" alt="Plunger">
+        <div class="buyRow">
+          <button class="priceBox" type="button">Price:
+            <span>4,50 dkk</span>
+          </button>
+          <button class="addToCart" type="button">Add to cart</button>
+
+        </div>
+      </div>
+
+
+
+      <div class="video">
+        <h3 id="present">Video presentation</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Nenp9XHYiIo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+
+
+
+      <div class="animation">
+
+        <div class="animPlunger">
+
+          <div class="animText">
+              <h2>How the plunger works:</h2>
+              <ul>
+                <li>Stroke the slider on the left 2-4 times</li>
+              </ul>
+          </div>
+
+            <input id="plungerSlider" type="range" orient="vertical" value = 100 oninput="showVal(this.value)">
+            <img id="plungerAnim" src="IMGs\idle.gif">
+            <img id="plungerInt" src="IMGS/plunger.png">
+        </div>
+
+        <div class="animGIF">
+
+          <div class="animTextHomer">
+              <h2>Don't be like Homer!</h2>
+          </div>
+
+            <img src="IMGs/tenor.gif">
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+
+    <div class="bottomBanner">
+
+      <div class="columnText">
+
+        <h3>Help & Support</h3>
+        <ul id="column">
+          <li>Contact Us</li>
+          <li>What's New</li>
+          <li>Product Notices</li>
+        </ul>
+      </div>
+
+      <div class="columnText">
+
+        <h3>About Brutto</h3>
+        <ul id="column">
+          <li>Storefinder</li>
+          <li>Storefinder</li>
+          <li>Storefinder</li>
+        </ul>
+      </div>
+
+      <div class="columnText">
+
+        <h3>Useful links</h3>
+        <ul id="column">
+          <li>Our Company</li>
+          <li>Our Company</li>
+          <li>Our Company</li>
+        </ul>
+      </div>
+
+      <div class="logoCopyright">
+        <img id="bannerLogoIMG" src="IMGs\brutto_logo.png" alt="Brutto">
+        <p id="copyrightID">© Copyright BRUTTOExample.com 1998 - 2020</p>
+      </div>
+
+      <div class="followUS">
+        <h3>FOLLOW US:</h3>
+        <ul id="columnFollow">
+          <li id="list">Facebook</li>
+          <li id="list">Instagram</li>
+          <li id="list">Twitter </li>
+          <li id="list">Youtube</li>
+        </ul>
+      </div>
+
+      <div class="appColumn">
+        <p id="appD">Download our App</p>
+        <img src="IMGs\app.png" alt="Our App">
+        <p id="bottomAppID">Terms & Conditions   Privacy & Cookie Policy</p>
+      </div>
+
+    </div>
+
+
+    <script src="JavaScript/js.js"></script>
+
+  </body>
+
+</html>
