@@ -8,6 +8,7 @@ body{
 .topBanner {
     width: 100%;
     display: flow-root;
+  background-color: black;
 }
 
 .firstButton{
